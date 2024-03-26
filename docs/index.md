@@ -10,7 +10,7 @@ titleTemplate: Hi，终于等到你
 editLink: true
 lastUpdated: true
 hero:
-  name: 周一同学
+  name: hei同学
   text: Stay foolish, Stay hungry.
   tagline: /斜杠青年/人间清醒/工具控/
   image:
