@@ -21,8 +21,8 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# Jacqueline712/mondaylab-blog 替换为自己的用户名和对应的仓库名
-# 意思为将master构建后的代码合并到gh-pages分支上，然后在gh-pages分支上部署~
+# https://github.com/1s2y3q/mondaylab-demo-blog.git 替换为自己的用户名和对应的仓库名
+# 意思为将main构建后的代码在main分支上部署~ sh ./vitepress-starter/deploy.sh
 git push -f https://github.com/1s2y3q/mondaylab-demo-blog.git main
 
 cd -
