@@ -23,6 +23,6 @@ git commit -m 'deploy'
 
 # https://github.com/1s2y3q/mondaylab-demo-blog.git 替换为自己的用户名和对应的仓库名
 # 意思为将main构建后的代码在main分支上部署~ sh ./vitepress-starter/deploy.sh
-git push -f https://github.com/1s2y3q/mondaylab-demo-blog.git main
+git push -f git@github.com:1s2y3q/mondaylab-demo-blog.git main
 
 cd -
