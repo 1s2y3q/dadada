@@ -5,7 +5,7 @@ layout: home
 home: true
 
 # 官方文档相关配置：https://vitepress.dev/reference/default-theme-home-page
-title: 周一的博客
+title: 哒哒哒的博客
 titleTemplate: Hi，终于等到你
 editLink: true
 lastUpdated: true
@@ -22,7 +22,7 @@ hero:
   actions:
     - theme: brand
       text: 进入主页
-      link: /column/views/guide
+      link: /
     - theme: alt
       text: 个人成长
       link: /column/Growing/

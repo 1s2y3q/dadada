@@ -11,10 +11,23 @@ import { defineConfig } from "vitepress";
 import { nav, sidebar } from "../relaConf";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "mondaylab-demo-blog",
+  title: "哒哒哒",
   description: "A VitePress Site",
   themeConfig: {
     // i18nRouting: true,
+    lastUpdated: {
+      text: "Updated at",
+      formatOptions: {
+        dateStyle: "full",
+        timeStyle: "medium",
+      },
+    },
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2019-present Evan You",
+    },
+    search: { provider: "local" },
+    logo: "/avatar.png", // 表示docs/public/avartar.png
     outline: {
       level: [2, 6],
       label: "目录",

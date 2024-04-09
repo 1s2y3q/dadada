@@ -15,15 +15,19 @@ export const nav: DefaultTheme.NavItem[] = [
     link: "/", // 表示docs/index.md
   },
   {
-    text: "个人成长",
+    text: "项目",
     items: [
       {
-        text: "大江南北游记",
-        link: "/column/Travel/", // 表示docs/column/Travel/index.md
+        text: "日清",
+        link: "/column/Project/dailSummary.md", // 表示docs/Project/dailSummary.md
       },
       {
-        text: "所思·所想",
-        link: "/column/Growing/", // 表示docs/column/Growing/index.md
+        text: "需求整理",
+        link: "/column/Project/requirements.md",
+      },
+      {
+        text: "代码逻辑",
+        link: "/column/Project/codelogic.md",
       },
     ],
   },
