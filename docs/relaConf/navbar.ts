@@ -41,6 +41,15 @@ export const nav: DefaultTheme.NavItem[] = [
     ],
   },
   {
+    text: "关于",
+    items: [
+      {
+        text: "乱七八糟",
+        link: "/column/Project/aboutheihei.md",
+      },
+    ],
+  },
+  {
     text: "关于我",
     items: [
       { text: "Github", link: "https://github.com/Jacqueline712" },
